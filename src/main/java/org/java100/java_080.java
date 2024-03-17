@@ -1,7 +1,6 @@
 package org.java100;
 
-public class ex100_80 {
-
+public class java_080 {
 	public static void main(String[] args) {
 		String password = "qhyhu wuxvw euxwxv";
 		for(int i=0; i<password.length(); i++) {
