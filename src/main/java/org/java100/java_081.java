@@ -4,28 +4,31 @@ import java.util.Scanner;
 public class ex100_81 {
 
 	public static void main(String[] args) {
-		// �ִ밪�� �ּҰ� 
-		// 5�� ������ �Ѱ��� �Է��Ͽ� �������.
 		Scanner scan = new Scanner(System.in);
 		int[] nums = new int[5];
 		for(int i=0; i<5; i++) {
 			nums[i] = scan.nextInt();
 		}
 		
-		//�ִ밪
-		int max = 0; // �ּҰ����� ����
+		// 최대값
+		int max = 0;
 		for(int i=0; i<5; i++) {
 			if(max < nums[i] )
 				max = nums[i];
 		}
-		//�ּҰ�
+		// 최소값
 		int min = Integer.MAX_VALUE;
 		for(int i=0; i<5; i++) {
 			if(min > nums[i])
 				min = nums[i];
 		}
-		System.out.println("�ִ밪"+max);
-		System.out.println("�ּҰ�"+min);
+		System.out.println("최대값"+max);
+		System.out.println("최소값"+min);
 	}
 
 }
+
+/*
+	최대값과 최소값 
+	5개 정수를 한개씩 입력하여 출력한다.
+*/
