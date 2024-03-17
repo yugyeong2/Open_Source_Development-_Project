@@ -1,7 +1,7 @@
 ﻿package org.java100;
 import java.util.Scanner;
 
-public class ex100_71 {
+public class java_071 {
 
 	public static void main(String[] args) {
 
