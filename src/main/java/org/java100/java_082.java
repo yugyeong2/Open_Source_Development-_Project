@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 import java.util.Scanner;
 
-public class ex100_82 {
-
+public class java_082 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
