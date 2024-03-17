@@ -1,9 +1,7 @@
 ﻿package org.java100;
-
 import java.util.Scanner;
 
-public class ex100_99 {
-
+public class java_099 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
@@ -24,7 +22,7 @@ public class ex100_99 {
 			for(int i = 0; i<5; i++) {
 				if((i+1)==5) {
 					/*tmp = arr[i];
-				arr[i] = arr[0];    // 인덱스가 5인 경우 조치가 필요 없으므로 비워놨음.
+				arr[i] = arr[0];    // 인덱스가 5인 경우 조치가 필요 없으므로 비워놓는다.
 				arr[0] = tmp;*/
 				}else {
 					tmp = arr[i];
