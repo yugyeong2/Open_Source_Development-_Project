@@ -2,8 +2,7 @@
 
 import java.util.Scanner;
 
-public class ex100_76 {
-
+public class java_076 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
