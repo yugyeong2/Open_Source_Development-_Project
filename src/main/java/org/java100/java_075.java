@@ -1,7 +1,7 @@
 package org.java100;
 import java.util.Scanner;
-public class ex100_75 {
 
+public class java_075 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		int n = scan.nextInt();
