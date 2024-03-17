@@ -24,7 +24,7 @@ public class java_098 {
 		}
 		for(int i=0; i<n; i++) {
 			int x = xy[i][0] - 1; // 사용자 1 -> 첫 번째
-			int y = xy[i][1] - 1; // 데이터 0 -> 첫 번
+			int y = xy[i][1] - 1; // 데이터 0 -> 첫 번째
 			board[x][y] = 1;
 		}
 		for(int i=0; i<10; i++) {
