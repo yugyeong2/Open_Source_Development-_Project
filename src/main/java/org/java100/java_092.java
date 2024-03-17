@@ -1,8 +1,8 @@
 package org.java100;
 import java.util.Scanner;
-public class ex100_92 {
-
+public class java_092 {
 	public static void main(String[] args) {
+		
 		int[] motherNum = {18,29,48,39,24,23,11,77,99,55};
 		for(int m : motherNum) {
 			System.out.print(m+" ");
@@ -10,13 +10,13 @@ public class ex100_92 {
 		System.out.println();
 		
 		try {
-			Thread.sleep(5000); //5��
+			Thread.sleep(5000); //5초 sleep
 		}catch(Exception e) { }
 		
 		for(int i=0; i<50; i++)
 			System.out.println("...");
 		
-		System.out.println("3��° ���ڴ�?");
+		System.out.println("3번째 숫자는?");
 		Scanner scan = new Scanner(System.in);
 		int num = scan.nextInt();
 		
@@ -26,9 +26,9 @@ public class ex100_92 {
 		}
 		
 		if(isExist==true) {
-			System.out.println("����!");
+			System.out.println("정답!");
 		}else {
-			System.out.println("����!");
+			System.out.println("오답!");
 		}
 		
 		
