@@ -1,9 +1,7 @@
 ﻿package org.java100;
-
 import java.util.Scanner;
 
-public class ex100_90 {
-
+public class java_090 {
 	public static void main(String[] args) {
 
 		Scanner scan = new Scanner(System.in);
