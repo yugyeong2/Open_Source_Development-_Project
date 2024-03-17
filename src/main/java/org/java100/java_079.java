@@ -4,20 +4,17 @@ import java.util.Scanner;
 public class ex100_79 {
 
 	public static void main(String[] args) {
-		// ���ĺ� ��ҹ��� ��ȯ
-		//CodeChallenge2014withMSP
-		//cODEcHALLENGE2014WITHmsp
 		Scanner scan = new Scanner(System.in);
-		System.out.println("�Է��ϼ���:");
+		System.out.println("입력하세요:");
 		String str = scan.nextLine();
 		for(int i=0; i<str.length(); i++) {
 			char c = str.charAt(i);
 			
-			if( c >= 'a' && c <= 'z') { //���ҹ���
+			if( c >= 'a' && c <= 'z') { // 소문자
 				System.out.print( (char)(c - 32) );
-			}else if( c >= 'A' && c <= 'Z') {//���빮��
+			}else if( c >= 'A' && c <= 'Z') {// 대문자
 				System.out.print( (char)(c + 32) );
-			}else { //���ڳ� Ư��������.
+			}else { // 숫자/특수문자
 				System.out.print(c);
 			}
 			
@@ -25,3 +22,12 @@ public class ex100_79 {
 	}
 
 }
+
+/*
+	주어지는 영어 문장을 대문자를 소문자로, 소문자를 대문자로 변경한다.
+ 
+	입력 예시 
+	CodeChallenge2014withMSP
+	출력 예시
+	cODEcHALLENGE2014WITHmsp
+*/
