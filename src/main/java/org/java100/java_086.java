@@ -2,8 +2,7 @@ package org.java100;
 
 import java.util.Scanner;
 
-public class ex100_86 {
-
+public class java_086 {
 	public static void main(String[] args) {
 		int n = 5;
 		int midIndex = (n/2)+1;
