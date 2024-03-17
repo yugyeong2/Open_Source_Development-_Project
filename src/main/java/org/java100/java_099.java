@@ -22,8 +22,8 @@ public class java_099 {
 			for(int i = 0; i<5; i++) {
 				if((i+1)==5) {
 					/*tmp = arr[i];
-				arr[i] = arr[0];    // 인덱스가 5인 경우 조치가 필요 없으므로 비워놓는다.
-				arr[0] = tmp;*/
+					arr[i] = arr[0]; // 인덱스가 5인 경우 조치가 필요 없으므로 비워놓는다.
+					arr[0] = tmp;*/
 				}else {
 					tmp = arr[i];
 					arr[i] = arr[i+1];
